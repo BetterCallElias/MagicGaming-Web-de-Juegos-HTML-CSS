@@ -1,0 +1,122 @@
+$background-color_1: #219ebc;
+
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+body {
+	background-color: $background-color_1 !important;
+}
+img {
+	max-width: 100%;
+}
+.gallery {
+	padding-top: 100px;
+}
+.container1 {
+	padding-top: 15% !important;
+}
+.card {
+	margin-bottom: 10px;
+}
+.history {
+	padding: 30px !important;
+	text-align: center;
+	font-size: 20px;
+}
+#Nosotros {
+	padding: 10%;
+}
+
+.carousel-control-prev-icon 
+{
+    width: 5vw !important;
+    height: 5vw !important;
+}
+    
+.carousel-control-next-icon
+{
+    width: 5vw !important;
+    height: 5vw !important;
+}
+
+.form-area {
+	padding: 10%;
+}
+.row.single-form {
+	box-shadow: 0 2px 20px -5px rgba(0, 0, 0, 0.5);
+}
+.left {
+	background: #1b263b;
+	padding: 200px 98px;
+	h2 {
+		font-weight: 700;
+		font-size: 48px;
+		span {
+			font-weight: 100;
+		}
+	}
+}
+.right {
+	padding: 70px 100px;
+	position: relative;
+	i {
+		position: absolute;
+		font-size: 80px;
+		left: -27px;
+		top: 40%;
+	}
+	button {
+		&:hover {
+			background: #e63946;
+		}
+		border: none;
+		border-radius: 0;
+		background: #252525;
+		width: 180px;
+		padding: 15px 0;
+		display: inline-block;
+		font-size: 16px;
+		margin-top: 20px;
+		cursor: pointer;
+	}
+}
+.form-control {
+	border: 2px solid #000;
+}
+@media (min-width: 768px) and (max-width:991px) {
+	.right {
+		i {
+			top: -52px;
+			transform: rotate(90deg);
+			left: 50%;
+		}
+	}
+}
+@media (max-width: 767px) {
+	.left {
+		padding: 90px 15px;
+		text-align: center;
+		h2 {
+			font-size: 25px;
+		}
+	}
+	.right {
+		padding: 25px;
+		i {
+			top: -25px;
+			transform: rotate(90deg);
+			left: 45%;
+		}
+		button {
+			width: 150px;
+			padding: 12px 0;
+		}
+	}
+}
+
+.map
+{
+	margin: 0 10% 50px 10%;
+}
+
